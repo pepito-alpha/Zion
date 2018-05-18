@@ -1,11 +1,14 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QDialog, QPushButton, QLabel
+from PyQt5 import uic
+
 
 class Dialogo(QDialog):
     def __init__(self):
         QDialog.__init__(self)
         self.setWindowTitle("Cuadro de dialogo")
         self.etiqueta = QLabel(self)
+        uic.loadUi("stylesheet.ui",self)
 
 class Ventana(QMainWindow):
     def __init__(self):

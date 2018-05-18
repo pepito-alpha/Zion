@@ -5,6 +5,7 @@ from PyQt5.QtGui import QFont #Modulo para trabajar con fuentes
 from PyQt5.QtCore import Qt # modulo para modificar el cursor
 import ctypes #GetSystemMetrics permite saber el tamano del escritorio
 
+
 #Clase heredada de QMainWindows(constructor de ventana)
 class Ventana(QMainWindow):
     #Metodo constructor de la clase

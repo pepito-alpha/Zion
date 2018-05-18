@@ -22,6 +22,8 @@ class Ventana(QMainWindow):
         self.dialogo.etiqueta.setText("Dialogo abierto desde la ventana principal")
         self.dialogo.exec_()
 
+
+
 app = QApplication(sys.argv)
 ventana = Ventana()
 ventana.show()
